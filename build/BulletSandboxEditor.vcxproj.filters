@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{229ca982-ce6a-458a-8b1a-a51847089893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\camera">
+      <UniqueIdentifier>{df6b7799-133c-4a70-955b-91275556f512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\game">
+      <UniqueIdentifier>{19615fd2-65a1-4771-a6e0-23d6a0ab485d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\node">
+      <UniqueIdentifier>{5c26e5d3-da24-4696-a721-832e527676c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\property">
+      <UniqueIdentifier>{4ef4fa94-aca6-4080-b629-8220f03ca4e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\scene">
+      <UniqueIdentifier>{634896bd-bed5-4a6c-b64e-79cc00489512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\scene\drop_handler">
+      <UniqueIdentifier>{7429fdcc-603e-46c2-af49-e2d07605b200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\scene\serialization">
+      <UniqueIdentifier>{918d5f95-6728-4832-89fe-067738e72a23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\utils">
+      <UniqueIdentifier>{fa166381-c34c-4e60-8050-af230ee5aede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor">
+      <UniqueIdentifier>{2866861d-8ba4-47f3-9e6e-29248528a830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\asset">
+      <UniqueIdentifier>{1e5816a6-03c0-4f2c-a8cc-84cca2fe22d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\scene_editor">
+      <UniqueIdentifier>{18e20d71-029c-4c2c-8a68-741fec87995e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\scene_editor\property">
+      <UniqueIdentifier>{930a0094-d7ae-4fba-8f49-014b0baa1f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\scene_editor\tools">
+      <UniqueIdentifier>{b3d3ba30-f138-40cb-8cf1-f9103f3cc5db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\scene_editor\ui">
+      <UniqueIdentifier>{93c2a313-f752-4b4a-9de7-2a333dffa58c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\tools">
+      <UniqueIdentifier>{a3e412a7-645b-45ae-92d0-ae0b0850716f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\ui">
+      <UniqueIdentifier>{22cb2ba9-3b41-4971-884d-ad55e7d30b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\ui\content_browser">
+      <UniqueIdentifier>{dea0825f-b4db-45dd-b1c6-976ed8a55c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\ui\windows">
+      <UniqueIdentifier>{c4a54e73-561b-4654-b688-76676ae71438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\workspace">
+      <UniqueIdentifier>{37888f63-6dbe-4db2-9f8f-3d53e998b33f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\workspace\drop_handler">
+      <UniqueIdentifier>{7c5f8479-eace-45ab-8266-5b72ead8b795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external">
+      <UniqueIdentifier>{27109909-c72d-4867-8f2f-2c34c08163fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\imgui">
+      <UniqueIdentifier>{1355b949-df27-4208-a38d-79469ec684b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\imgui\backends">
+      <UniqueIdentifier>{d6ccce6b-7f98-4536-b728-0a91e11b2590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{330918ec-f3f1-4ad8-b7da-883e730b3e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\objects">
+      <UniqueIdentifier>{7c58dd33-386d-457c-a3ec-060fe8868568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\runtime_objects">
+      <UniqueIdentifier>{544ce610-4331-4ff2-a256-a04c8592ac37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="platform\utils">
+      <UniqueIdentifier>{315ba62a-a8b5-4867-9c90-9c26ba3c37e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\core\camera\Camera.cpp">
+      <Filter>core\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\game\GameRuntimeFactory.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\node\Node.cpp">
+      <Filter>core\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\scene\ObjectFactory.cpp">
+      <Filter>core\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\scene\Scene.cpp">
+      <Filter>core\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\scene\SceneNode.cpp">
+      <Filter>core\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\scene\SceneRoot.cpp">
+      <Filter>core\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\scene\serialization\SceneSerializer.cpp">
+      <Filter>core\scene\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\asset\AssetDocument.cpp">
+      <Filter>editor\asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\asset\AssetManager.cpp">
+      <Filter>editor\asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\asset\AssetType.cpp">
+      <Filter>editor\asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\asset\AssetTypeRegistry.cpp">
+      <Filter>editor\asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\Editor.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\EditorStyle.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\scene_editor\drop_handler\SceneObjectDropHandler.cpp">
+      <Filter>core\scene\drop_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\scene_editor\property\PropertyInspector.cpp">
+      <Filter>editor\scene_editor\property</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\scene_editor\SceneAssetType.cpp">
+      <Filter>editor\scene_editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\scene_editor\SceneDocument.cpp">
+      <Filter>editor\scene_editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\scene_editor\SceneEditor.cpp">
+      <Filter>editor\scene_editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\scene_editor\SceneEditorWorkspace.cpp">
+      <Filter>editor\scene_editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\scene_editor\SceneSimulator.cpp">
+      <Filter>editor\scene_editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\scene_editor\tools\NodeCopyBuffer.cpp">
+      <Filter>editor\scene_editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\scene_editor\tools\TransformGizmo.cpp">
+      <Filter>editor\scene_editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\scene_editor\ui\NewSceneWindow.cpp">
+      <Filter>editor\scene_editor\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\scene_editor\ui\SceneNodeTreeWindow.cpp">
+      <Filter>editor\scene_editor\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\scene_editor\ui\SceneObjectsWindow.cpp">
+      <Filter>editor\scene_editor\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\scene_editor\ui\ScenePropertyWindow.cpp">
+      <Filter>editor\scene_editor\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\tools\NodeSelection.cpp">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\ui\content_browser\ContentBrowserController.cpp">
+      <Filter>editor\ui\content_browser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\ui\content_browser\ContentItemsView.cpp">
+      <Filter>editor\ui\content_browser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\ui\content_browser\FolderTreeView.cpp">
+      <Filter>editor\ui\content_browser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\ui\WindowManager.cpp">
+      <Filter>editor\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\ui\windows\BaseWindow.cpp">
+      <Filter>editor\ui\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\ui\windows\ContentBrowserWindow.cpp">
+      <Filter>editor\ui\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\ui\windows\DockedWindow.cpp">
+      <Filter>editor\ui\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\ui\windows\MessageWindow.cpp">
+      <Filter>editor\ui\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\ui\windows\ModalWindow.cpp">
+      <Filter>editor\ui\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\ui\windows\WorkspaceWindow.cpp">
+      <Filter>editor\ui\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\workspace\EditorWorkspace.cpp">
+      <Filter>editor\workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\workspace\WorkspaceManager.cpp">
+      <Filter>editor\workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>external\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>external\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\imgui.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\imgui_demo.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\imgui_draw.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\imgui_tables.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\imgui_widgets.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Game.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GameRuntime.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\objects\BulletEmitter.cpp">
+      <Filter>game\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\objects\Wall.cpp">
+      <Filter>game\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\runtime_objects\Bullet.cpp">
+      <Filter>game\runtime_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\Application.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\Gfx.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\Gui.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\main.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\utils\SystemUtils.cpp">
+      <Filter>platform\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\Window.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\core\camera\Camera.h">
+      <Filter>core\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\game\GameRuntimeFactory.h">
+      <Filter>core\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\game\IGameRuntime.h">
+      <Filter>core\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\node\Node.h">
+      <Filter>core\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\property\IPropertyVisitor.h">
+      <Filter>core\property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\scene\ObjectFactory.h">
+      <Filter>core\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\scene\Scene.h">
+      <Filter>core\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\scene\SceneNode.h">
+      <Filter>core\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\scene\SceneRoot.h">
+      <Filter>core\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\scene\serialization\SceneSerializer.h">
+      <Filter>core\scene\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\utils\Math.h">
+      <Filter>core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\asset\AssetDocument.h">
+      <Filter>editor\asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\asset\AssetManager.h">
+      <Filter>editor\asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\asset\AssetNode.h">
+      <Filter>editor\asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\asset\AssetType.h">
+      <Filter>editor\asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\asset\AssetTypeRegistry.h">
+      <Filter>editor\asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\Editor.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\EditorStyle.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\scene_editor\drop_handler\SceneObjectDropHandler.h">
+      <Filter>core\scene\drop_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\scene_editor\property\PropertyInspector.h">
+      <Filter>editor\scene_editor\property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\scene_editor\SceneAssetType.h">
+      <Filter>editor\scene_editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\scene_editor\SceneDocument.h">
+      <Filter>editor\scene_editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\scene_editor\SceneEditor.h">
+      <Filter>editor\scene_editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\scene_editor\SceneEditorWorkspace.h">
+      <Filter>editor\scene_editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\scene_editor\SceneSimulator.h">
+      <Filter>editor\scene_editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\scene_editor\tools\NodeCopyBuffer.h">
+      <Filter>editor\scene_editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\scene_editor\tools\TransformGizmo.h">
+      <Filter>editor\scene_editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\scene_editor\ui\NewSceneWindow.h">
+      <Filter>editor\scene_editor\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\scene_editor\ui\SceneNodeTreeWindow.h">
+      <Filter>editor\scene_editor\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\scene_editor\ui\SceneObjectsWindow.h">
+      <Filter>editor\scene_editor\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\scene_editor\ui\ScenePropertyWindow.h">
+      <Filter>editor\scene_editor\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\tools\NodeSelection.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\ui\content_browser\ContentBrowserController.h">
+      <Filter>editor\ui\content_browser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\ui\content_browser\ContentItemsView.h">
+      <Filter>editor\ui\content_browser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\ui\content_browser\FolderTreeView.h">
+      <Filter>editor\ui\content_browser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\ui\content_browser\IContentBrowserController.h">
+      <Filter>editor\ui\content_browser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\ui\IWindowHost.h">
+      <Filter>editor\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\ui\WindowIDs.h">
+      <Filter>editor\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\ui\WindowManager.h">
+      <Filter>editor\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\ui\windows\BaseWindow.h">
+      <Filter>editor\ui\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\ui\windows\ContentBrowserWindow.h">
+      <Filter>editor\ui\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\ui\windows\DockedWindow.h">
+      <Filter>editor\ui\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\ui\windows\MessageWindow.h">
+      <Filter>editor\ui\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\ui\windows\ModalWindow.h">
+      <Filter>editor\ui\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\ui\windows\WorkspaceWindow.h">
+      <Filter>editor\ui\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\workspace\drop_handler\IWorkspaceDropHandler.h">
+      <Filter>editor\workspace\drop_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\workspace\drop_handler\WorkspaceDropContext.h">
+      <Filter>editor\workspace\drop_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\workspace\EditorWorkspace.h">
+      <Filter>editor\workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\workspace\WorkspaceManager.h">
+      <Filter>editor\workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\backends\imgui_impl_dx11.h">
+      <Filter>external\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\backends\imgui_impl_win32.h">
+      <Filter>external\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\imconfig.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\imgui.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\imgui_internal.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\imstb_rectpack.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\imstb_textedit.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\imstb_truetype.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GameRuntime.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\objects\BulletEmitter.h">
+      <Filter>game\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\objects\Wall.h">
+      <Filter>game\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\runtime_objects\Bullet.h">
+      <Filter>game\runtime_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\Application.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\Gfx.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\Gui.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\utils\SystemUtils.h">
+      <Filter>platform\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\Window.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "SceneData": {
+    "Name": "RootNode",
+    "TypeID": "SceneRoot",
+    "Properties": {
+      "Width": 50.0,
+      "Height": 50.0,
+      "PositionX": 0.0,
+      "PositionY": 0.0,
+      "Rotation": 0.0,
+      "ScaleX": 1.0,
+      "ScaleY": 1.0,
+      "ColorR": 0.5,
+      "ColorG": 0.5,
+      "ColorB": 0.699999988079071,
+      "ColorA": 1.0
+    },
+    "Children": [
+      {
+        "Name": "Wall",
+        "TypeID": "Wall",
+        "Properties": {
+          "Width": 50.0,
+          "Height": 50.0,
+          "PositionX": 967.0,
+          "PositionY": 315.0,
+          "Rotation": 0.5338579416275024,
+          "ScaleX": 2.0399999618530273,
+          "ScaleY": 7.920000076293945,
+          "ColorR": 0.29793742299079895,
+          "ColorG": 0.2979375720024109,
+          "ColorB": 0.8637681007385254,
+          "ColorA": 1.0,
+          "Strength": 1000.0
+        },
+        "Children": null
+      },
+      {
+        "Name": "Wall0",
+        "TypeID": "Wall",
+        "Properties": {
+          "Width": 50.0,
+          "Height": 50.0,
+          "PositionX": 1818.0,
+          "PositionY": 326.0,
+          "Rotation": -0.6133276224136353,
+          "ScaleX": 1.8960390090942383,
+          "ScaleY": 7.639999866485596,
+          "ColorR": 0.8376811742782593,
+          "ColorG": 0.22095359861850739,
+          "ColorB": 0.6714329123497009,
+          "ColorA": 1.0,
+          "Strength": 1000.0
+        },
+        "Children": null
+      },
+      {
+        "Name": "Wall1",
+        "TypeID": "Wall",
+        "Properties": {
+          "Width": 50.0,
+          "Height": 50.0,
+          "PositionX": 1371.0,
+          "PositionY": 104.0,
+          "Rotation": 0.0,
+          "ScaleX": 12.199999809265137,
+          "ScaleY": 1.440000057220459,
+          "ColorR": 0.5,
+          "ColorG": 0.699999988079071,
+          "ColorB": 0.5313043594360352,
+          "ColorA": 1.0,
+          "Strength": 1000.0
+        },
+        "Children": null
+      }
+    ]
+  }
+}

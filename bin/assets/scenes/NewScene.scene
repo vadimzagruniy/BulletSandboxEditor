@@ -1,0 +1,214 @@
+{
+  "Version": 1,
+  "SceneData": {
+    "Name": "RootNode",
+    "TypeID": "SceneRoot",
+    "Properties": {
+      "Width": 2938.799072265625,
+      "Height": 2675.12109375,
+      "PositionX": 1480.2833251953125,
+      "PositionY": 1343.1497802734375,
+      "Rotation": 0.0,
+      "ScaleX": 1.0,
+      "ScaleY": 1.0,
+      "ColorR": 0.5984455943107605,
+      "ColorG": 0.5984455943107605,
+      "ColorB": 0.5984455943107605,
+      "ColorA": 1.0
+    },
+    "Children": [
+      {
+        "Name": "Wall",
+        "TypeID": "Wall",
+        "Properties": {
+          "Width": 50.0,
+          "Height": 50.0,
+          "PositionX": -979.379638671875,
+          "PositionY": -994.7333984375,
+          "Rotation": 1.129380464553833,
+          "ScaleX": 2.0399999618530273,
+          "ScaleY": 7.920000076293945,
+          "ColorR": 0.29793742299079895,
+          "ColorG": 0.2979375720024109,
+          "ColorB": 0.8637681007385254,
+          "ColorA": 1.0,
+          "Strength": 1000.0
+        },
+        "Children": null
+      },
+      {
+        "Name": "Wall0",
+        "TypeID": "Wall",
+        "Properties": {
+          "Width": 50.0,
+          "Height": 61.357913970947266,
+          "PositionX": 662.853271484375,
+          "PositionY": -1010.1664428710938,
+          "Rotation": -1.1999074220657349,
+          "ScaleX": 1.8960390090942383,
+          "ScaleY": 7.639999866485596,
+          "ColorR": 0.8376811742782593,
+          "ColorG": 0.22095359861850739,
+          "ColorB": 0.6714329123497009,
+          "ColorA": 1.0,
+          "Strength": 1000.0
+        },
+        "Children": null
+      },
+      {
+        "Name": "Wall1",
+        "TypeID": "Wall",
+        "Properties": {
+          "Width": 50.0,
+          "Height": 50.0,
+          "PositionX": -191.67724609375,
+          "PositionY": -1130.707763671875,
+          "Rotation": 0.0,
+          "ScaleX": 12.199999809265137,
+          "ScaleY": 1.440000057220459,
+          "ColorR": 0.5,
+          "ColorG": 0.699999988079071,
+          "ColorB": 0.5313043594360352,
+          "ColorA": 1.0,
+          "Strength": 1000.0
+        },
+        "Children": null
+      },
+      {
+        "Name": "Wall2",
+        "TypeID": "Wall",
+        "Properties": {
+          "Width": 300.0,
+          "Height": 100.0,
+          "PositionX": -1089.953369140625,
+          "PositionY": -646.553955078125,
+          "Rotation": 0.0,
+          "ScaleX": 1.0,
+          "ScaleY": 1.0,
+          "ColorR": 0.5,
+          "ColorG": 0.8999999761581421,
+          "ColorB": 1.0,
+          "ColorA": 1.0,
+          "Strength": 1000.0
+        },
+        "Children": null
+      },
+      {
+        "Name": "Wall3",
+        "TypeID": "Wall",
+        "Properties": {
+          "Width": 300.0,
+          "Height": 100.0,
+          "PositionX": -676.2406005859375,
+          "PositionY": -642.266845703125,
+          "Rotation": 0.0,
+          "ScaleX": 1.0,
+          "ScaleY": 1.0,
+          "ColorR": 0.5,
+          "ColorG": 0.8999999761581421,
+          "ColorB": 1.0,
+          "ColorA": 1.0,
+          "Strength": 1000.0
+        },
+        "Children": null
+      },
+      {
+        "Name": "Wall4",
+        "TypeID": "Wall",
+        "Properties": {
+          "Width": 300.0,
+          "Height": 100.0,
+          "PositionX": -251.809814453125,
+          "PositionY": -642.2667846679688,
+          "Rotation": 0.0,
+          "ScaleX": 1.0,
+          "ScaleY": 1.0,
+          "ColorR": 0.5,
+          "ColorG": 0.8999999761581421,
+          "ColorB": 1.0,
+          "ColorA": 1.0,
+          "Strength": 1000.0
+        },
+        "Children": null
+      },
+      {
+        "Name": "Wall5",
+        "TypeID": "Wall",
+        "Properties": {
+          "Width": 300.0,
+          "Height": 100.0,
+          "PositionX": 174.76513671875,
+          "PositionY": -642.266845703125,
+          "Rotation": 0.0,
+          "ScaleX": 1.0,
+          "ScaleY": 1.0,
+          "ColorR": 0.5,
+          "ColorG": 0.8999999761581421,
+          "ColorB": 1.0,
+          "ColorA": 1.0,
+          "Strength": 1000.0
+        },
+        "Children": null
+      },
+      {
+        "Name": "Wall6",
+        "TypeID": "Wall",
+        "Properties": {
+          "Width": 300.0,
+          "Height": 100.0,
+          "PositionX": 586.333984375,
+          "PositionY": -642.2667846679688,
+          "Rotation": 0.0,
+          "ScaleX": 1.0,
+          "ScaleY": 1.0,
+          "ColorR": 0.5,
+          "ColorG": 0.8999999761581421,
+          "ColorB": 1.0,
+          "ColorA": 1.0,
+          "Strength": 1000.0
+        },
+        "Children": null
+      },
+      {
+        "Name": "Wall7",
+        "TypeID": "Wall",
+        "Properties": {
+          "Width": 300.0,
+          "Height": 100.0,
+          "PositionX": 1008.62109375,
+          "PositionY": -640.1232299804688,
+          "Rotation": 0.0,
+          "ScaleX": 1.0,
+          "ScaleY": 1.0,
+          "ColorR": 0.5,
+          "ColorG": 0.8999999761581421,
+          "ColorB": 1.0,
+          "ColorA": 1.0,
+          "Strength": 1000.0
+        },
+        "Children": null
+      },
+      {
+        "Name": "BulletEmitter",
+        "TypeID": "BulletEmitter",
+        "Properties": {
+          "Width": 100.0,
+          "Height": 100.0,
+          "PositionX": -549.2907104492188,
+          "PositionY": -273.1644287109375,
+          "Rotation": -0.33377110958099365,
+          "ScaleX": 1.0,
+          "ScaleY": 1.0,
+          "ColorR": 0.5,
+          "ColorG": 0.5,
+          "ColorB": 0.699999988079071,
+          "ColorA": 1.0,
+          "BulletLifeTime": 10.0,
+          "BulletDamage": 0.10000000149011612,
+          "ReloadTime": 2.0
+        },
+        "Children": null
+      }
+    ]
+  }
+}

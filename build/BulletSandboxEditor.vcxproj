@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\core\camera\Camera.cpp" />
+    <ClCompile Include="..\core\game\GameRuntimeFactory.cpp" />
+    <ClCompile Include="..\core\node\Node.cpp" />
+    <ClCompile Include="..\core\scene\ObjectFactory.cpp" />
+    <ClCompile Include="..\core\scene\Scene.cpp" />
+    <ClCompile Include="..\core\scene\SceneNode.cpp" />
+    <ClCompile Include="..\core\scene\SceneRoot.cpp" />
+    <ClCompile Include="..\core\scene\serialization\SceneSerializer.cpp" />
+    <ClCompile Include="..\editor\asset\AssetDocument.cpp" />
+    <ClCompile Include="..\editor\asset\AssetManager.cpp" />
+    <ClCompile Include="..\editor\asset\AssetType.cpp" />
+    <ClCompile Include="..\editor\asset\AssetTypeRegistry.cpp" />
+    <ClCompile Include="..\editor\Editor.cpp" />
+    <ClCompile Include="..\editor\EditorStyle.cpp" />
+    <ClCompile Include="..\editor\scene_editor\drop_handler\SceneObjectDropHandler.cpp" />
+    <ClCompile Include="..\editor\scene_editor\property\PropertyInspector.cpp" />
+    <ClCompile Include="..\editor\scene_editor\SceneAssetType.cpp" />
+    <ClCompile Include="..\editor\scene_editor\SceneDocument.cpp" />
+    <ClCompile Include="..\editor\scene_editor\SceneEditor.cpp" />
+    <ClCompile Include="..\editor\scene_editor\SceneEditorWorkspace.cpp" />
+    <ClCompile Include="..\editor\scene_editor\SceneSimulator.cpp" />
+    <ClCompile Include="..\editor\scene_editor\tools\NodeCopyBuffer.cpp" />
+    <ClCompile Include="..\editor\scene_editor\tools\TransformGizmo.cpp" />
+    <ClCompile Include="..\editor\scene_editor\ui\NewSceneWindow.cpp" />
+    <ClCompile Include="..\editor\scene_editor\ui\SceneNodeTreeWindow.cpp" />
+    <ClCompile Include="..\editor\scene_editor\ui\SceneObjectsWindow.cpp" />
+    <ClCompile Include="..\editor\scene_editor\ui\ScenePropertyWindow.cpp" />
+    <ClCompile Include="..\editor\tools\NodeSelection.cpp" />
+    <ClCompile Include="..\editor\ui\content_browser\ContentBrowserController.cpp" />
+    <ClCompile Include="..\editor\ui\content_browser\FolderTreeView.cpp" />
+    <ClCompile Include="..\editor\ui\content_browser\ContentItemsView.cpp" />
+    <ClCompile Include="..\editor\ui\WindowManager.cpp" />
+    <ClCompile Include="..\editor\ui\windows\BaseWindow.cpp" />
+    <ClCompile Include="..\editor\ui\windows\DockedWindow.cpp" />
+    <ClCompile Include="..\editor\ui\windows\MessageWindow.cpp" />
+    <ClCompile Include="..\editor\ui\windows\ModalWindow.cpp" />
+    <ClCompile Include="..\editor\ui\windows\ContentBrowserWindow.cpp" />
+    <ClCompile Include="..\editor\ui\windows\WorkspaceWindow.cpp" />
+    <ClCompile Include="..\editor\workspace\EditorWorkspace.cpp" />
+    <ClCompile Include="..\editor\workspace\WorkspaceManager.cpp" />
+    <ClCompile Include="..\external\imgui\backends\imgui_impl_dx11.cpp" />
+    <ClCompile Include="..\external\imgui\backends\imgui_impl_win32.cpp" />
+    <ClCompile Include="..\external\imgui\imgui.cpp" />
+    <ClCompile Include="..\external\imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\external\imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\external\imgui\imgui_tables.cpp" />
+    <ClCompile Include="..\external\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="..\game\Game.cpp" />
+    <ClCompile Include="..\game\GameRuntime.cpp" />
+    <ClCompile Include="..\game\objects\BulletEmitter.cpp" />
+    <ClCompile Include="..\game\objects\Wall.cpp" />
+    <ClCompile Include="..\game\runtime_objects\Bullet.cpp" />
+    <ClCompile Include="..\platform\Application.cpp" />
+    <ClCompile Include="..\platform\Gfx.cpp" />
+    <ClCompile Include="..\platform\main.cpp" />
+    <ClCompile Include="..\platform\Gui.cpp" />
+    <ClCompile Include="..\platform\utils\SystemUtils.cpp" />
+    <ClCompile Include="..\platform\Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\core\camera\Camera.h" />
+    <ClInclude Include="..\core\game\GameRuntimeFactory.h" />
+    <ClInclude Include="..\core\game\IGameRuntime.h" />
+    <ClInclude Include="..\core\node\Node.h" />
+    <ClInclude Include="..\core\property\IPropertyVisitor.h" />
+    <ClInclude Include="..\core\scene\ObjectFactory.h" />
+    <ClInclude Include="..\core\scene\Scene.h" />
+    <ClInclude Include="..\core\scene\SceneNode.h" />
+    <ClInclude Include="..\core\scene\SceneRoot.h" />
+    <ClInclude Include="..\core\scene\serialization\SceneSerializer.h" />
+    <ClInclude Include="..\core\utils\Math.h" />
+    <ClInclude Include="..\editor\asset\AssetDocument.h" />
+    <ClInclude Include="..\editor\asset\AssetManager.h" />
+    <ClInclude Include="..\editor\asset\AssetNode.h" />
+    <ClInclude Include="..\editor\asset\AssetType.h" />
+    <ClInclude Include="..\editor\asset\AssetTypeRegistry.h" />
+    <ClInclude Include="..\editor\Editor.h" />
+    <ClInclude Include="..\editor\EditorStyle.h" />
+    <ClInclude Include="..\editor\scene_editor\drop_handler\SceneObjectDropHandler.h" />
+    <ClInclude Include="..\editor\scene_editor\property\PropertyInspector.h" />
+    <ClInclude Include="..\editor\scene_editor\SceneAssetType.h" />
+    <ClInclude Include="..\editor\scene_editor\SceneDocument.h" />
+    <ClInclude Include="..\editor\scene_editor\SceneEditor.h" />
+    <ClInclude Include="..\editor\scene_editor\SceneEditorWorkspace.h" />
+    <ClInclude Include="..\editor\scene_editor\SceneSimulator.h" />
+    <ClInclude Include="..\editor\scene_editor\tools\NodeCopyBuffer.h" />
+    <ClInclude Include="..\editor\scene_editor\tools\TransformGizmo.h" />
+    <ClInclude Include="..\editor\scene_editor\ui\NewSceneWindow.h" />
+    <ClInclude Include="..\editor\scene_editor\ui\SceneNodeTreeWindow.h" />
+    <ClInclude Include="..\editor\scene_editor\ui\SceneObjectsWindow.h" />
+    <ClInclude Include="..\editor\scene_editor\ui\ScenePropertyWindow.h" />
+    <ClInclude Include="..\editor\tools\NodeSelection.h" />
+    <ClInclude Include="..\editor\ui\content_browser\ContentBrowserController.h" />
+    <ClInclude Include="..\editor\ui\content_browser\FolderTreeView.h" />
+    <ClInclude Include="..\editor\ui\content_browser\ContentItemsView.h" />
+    <ClInclude Include="..\editor\ui\content_browser\IContentBrowserController.h" />
+    <ClInclude Include="..\editor\ui\IWindowHost.h" />
+    <ClInclude Include="..\editor\ui\WindowIDs.h" />
+    <ClInclude Include="..\editor\ui\WindowManager.h" />
+    <ClInclude Include="..\editor\ui\windows\BaseWindow.h" />
+    <ClInclude Include="..\editor\ui\windows\DockedWindow.h" />
+    <ClInclude Include="..\editor\ui\windows\ContentBrowserWindow.h" />
+    <ClInclude Include="..\editor\ui\windows\MessageWindow.h" />
+    <ClInclude Include="..\editor\ui\windows\WorkspaceWindow.h" />
+    <ClInclude Include="..\editor\ui\windows\ModalWindow.h" />
+    <ClInclude Include="..\editor\workspace\drop_handler\IWorkspaceDropHandler.h" />
+    <ClInclude Include="..\editor\workspace\drop_handler\WorkspaceDropContext.h" />
+    <ClInclude Include="..\editor\workspace\EditorWorkspace.h" />
+    <ClInclude Include="..\editor\workspace\WorkspaceManager.h" />
+    <ClInclude Include="..\external\imgui\backends\imgui_impl_dx11.h" />
+    <ClInclude Include="..\external\imgui\backends\imgui_impl_win32.h" />
+    <ClInclude Include="..\external\imgui\imconfig.h" />
+    <ClInclude Include="..\external\imgui\imgui.h" />
+    <ClInclude Include="..\external\imgui\imgui_internal.h" />
+    <ClInclude Include="..\external\imgui\imstb_rectpack.h" />
+    <ClInclude Include="..\external\imgui\imstb_textedit.h" />
+    <ClInclude Include="..\external\imgui\imstb_truetype.h" />
+    <ClInclude Include="..\game\Game.h" />
+    <ClInclude Include="..\game\GameRuntime.h" />
+    <ClInclude Include="..\game\objects\BulletEmitter.h" />
+    <ClInclude Include="..\game\objects\Wall.h" />
+    <ClInclude Include="..\game\runtime_objects\Bullet.h" />
+    <ClInclude Include="..\platform\Application.h" />
+    <ClInclude Include="..\platform\Gfx.h" />
+    <ClInclude Include="..\platform\Gui.h" />
+    <ClInclude Include="..\platform\utils\SystemUtils.h" />
+    <ClInclude Include="..\platform\Window.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{f9dfc029-849e-4764-8a17-30b640ea4eb9}</ProjectGuid>
+    <RootNamespace>BulletSandboxEditor</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)..\bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)..\bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)..\bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)..\bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions);IMGUI_DEFINE_MATH_OPERATORS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>../../BulletSandboxEditor/;../external/json/single_include;../external/imgui;../external/imgui/backends;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions);IMGUI_DEFINE_MATH_OPERATORS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>../../BulletSandboxEditor/;../external/json/single_include;../external/imgui;../external/imgui/backends;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions);IMGUI_DEFINE_MATH_OPERATORS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalUsingDirectories>%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <AdditionalIncludeDirectories>../../BulletSandboxEditor/;../external/json/single_include;../external/imgui;../external/imgui/backends;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions);IMGUI_DEFINE_MATH_OPERATORS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>../../BulletSandboxEditor/;../external/json/single_include;../external/imgui;../external/imgui/backends;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

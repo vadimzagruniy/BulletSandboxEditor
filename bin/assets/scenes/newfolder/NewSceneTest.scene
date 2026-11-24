@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "SceneData": {
+    "Name": "RootNode",
+    "TypeID": "SceneRoot",
+    "Properties": {
+      "Width": 1000.0,
+      "Height": 1000.0,
+      "PositionX": 500.0,
+      "PositionY": 500.0,
+      "Rotation": 0.0,
+      "ScaleX": 1.0,
+      "ScaleY": 1.0,
+      "ColorR": 0.30000001192092896,
+      "ColorG": 0.5,
+      "ColorB": 0.8999999761581421,
+      "ColorA": 0.5
+    },
+    "Children": null
+  }
+}
